@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A0F4FB51B8F5281008C9333 /* Warlock-Destiny-HD-Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F4FB41B8F5281008C9333 /* Warlock-Destiny-HD-Wallpaper.jpg */; };
 		9A89A5AA1B8768E5000F02E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A89A5A91B8768E5000F02E8 /* AppDelegate.swift */; };
 		9A89A5AC1B8768E5000F02E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A89A5AB1B8768E5000F02E8 /* ViewController.swift */; };
 		9A89A5AF1B8768E5000F02E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A89A5AD1B8768E5000F02E8 /* Main.storyboard */; };
 		9A89A5B11B8768E5000F02E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A89A5B01B8768E5000F02E8 /* Images.xcassets */; };
 		9A89A5B41B8768E5000F02E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A89A5B21B8768E5000F02E8 /* LaunchScreen.xib */; };
 		9A89A5C01B8768E5000F02E8 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A89A5BF1B8768E5000F02E8 /* PostcardTests.swift */; };
+		9A89A5CA1B877405000F02E8 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A89A5C91B877405000F02E8 /* images.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A0F4FB41B8F5281008C9333 /* Warlock-Destiny-HD-Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Warlock-Destiny-HD-Wallpaper.jpg"; sourceTree = "<group>"; };
 		9A89A5A41B8768E5000F02E8 /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A89A5A81B8768E5000F02E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A89A5A91B8768E5000F02E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		9A89A5B91B8768E5000F02E8 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A89A5BE1B8768E5000F02E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A89A5BF1B8768E5000F02E8 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		9A89A5C91B877405000F02E8 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		9A89A5A71B8768E5000F02E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9A0F4FB41B8F5281008C9333 /* Warlock-Destiny-HD-Wallpaper.jpg */,
+				9A89A5C91B877405000F02E8 /* images.jpg */,
 				9A89A5A81B8768E5000F02E8 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +201,8 @@
 				9A89A5AF1B8768E5000F02E8 /* Main.storyboard in Resources */,
 				9A89A5B41B8768E5000F02E8 /* LaunchScreen.xib in Resources */,
 				9A89A5B11B8768E5000F02E8 /* Images.xcassets in Resources */,
+				9A89A5CA1B877405000F02E8 /* images.jpg in Resources */,
+				9A0F4FB51B8F5281008C9333 /* Warlock-Destiny-HD-Wallpaper.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +417,7 @@
 				9A89A5C51B8768E5000F02E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A89A5C61B8768E5000F02E8 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				9A89A5C81B8768E5000F02E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
